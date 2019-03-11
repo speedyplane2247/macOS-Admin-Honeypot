@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FF5040D2235E5E100F2193B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF5040C2235E5E100F2193B /* AppDelegate.swift */; };
+		3FF5040F2235E5E200F2193B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF5040E2235E5E200F2193B /* ViewController.swift */; };
+		3FF504112235E5E600F2193B /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3FF504102235E5E600F2193B /* AppIcon.icns */; };
+		3FF504142235E5E600F2193B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF504122235E5E600F2193B /* Main.storyboard */; };
+		3FF504202235E5E600F2193B /* Google_Chrome_UpdaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF5041F2235E5E600F2193B /* Google_Chrome_UpdaterTests.swift */; };
+		3FF5042B2235E5E600F2193B /* Google_Chrome_UpdaterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF5042A2235E5E600F2193B /* Google_Chrome_UpdaterUITests.swift */; };
+		3FF504392235F3EF00F2193B /* yes.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF504382235F3EF00F2193B /* yes.png */; };
+		3FF5043B2235F3F900F2193B /* app.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3FF5043A2235F3F900F2193B /* app.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FF5041C2235E5E600F2193B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FF504012235E5E100F2193B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF504082235E5E100F2193B;
+			remoteInfo = "Google Chrome Updater";
+		};
+		3FF504272235E5E600F2193B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FF504012235E5E100F2193B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF504082235E5E100F2193B;
+			remoteInfo = "Google Chrome Updater";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FF504092235E5E100F2193B /* Google Chrome Updater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Google Chrome Updater.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF5040C2235E5E100F2193B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FF5040E2235E5E200F2193B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FF504102235E5E600F2193B /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = AppIcon.icns; path = Assets.xcassets/AppIcon.icns; sourceTree = "<group>"; };
+		3FF504132235E5E600F2193B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FF504152235E5E600F2193B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF504162235E5E600F2193B /* Google_Chrome_Updater.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Google_Chrome_Updater.entitlements; sourceTree = "<group>"; };
+		3FF5041B2235E5E600F2193B /* Google Chrome UpdaterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Google Chrome UpdaterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF5041F2235E5E600F2193B /* Google_Chrome_UpdaterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Google_Chrome_UpdaterTests.swift; sourceTree = "<group>"; };
+		3FF504212235E5E600F2193B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF504262235E5E600F2193B /* Google Chrome UpdaterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Google Chrome UpdaterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF5042A2235E5E600F2193B /* Google_Chrome_UpdaterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Google_Chrome_UpdaterUITests.swift; sourceTree = "<group>"; };
+		3FF5042C2235E5E600F2193B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF504382235F3EF00F2193B /* yes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yes.png; sourceTree = "<group>"; };
+		3FF5043A2235F3F900F2193B /* app.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = app.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FF504062235E5E100F2193B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF504182235E5E600F2193B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF504232235E5E600F2193B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FF504002235E5E100F2193B = {
+			isa = PBXGroup;
+			children = (
+				3FF5040B2235E5E100F2193B /* Google Chrome Updater */,
+				3FF5041E2235E5E600F2193B /* Google Chrome UpdaterTests */,
+				3FF504292235E5E600F2193B /* Google Chrome UpdaterUITests */,
+				3FF5040A2235E5E100F2193B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FF5040A2235E5E100F2193B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FF504092235E5E100F2193B /* Google Chrome Updater.app */,
+				3FF5041B2235E5E600F2193B /* Google Chrome UpdaterTests.xctest */,
+				3FF504262235E5E600F2193B /* Google Chrome UpdaterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FF5040B2235E5E100F2193B /* Google Chrome Updater */ = {
+			isa = PBXGroup;
+			children = (
+				3FF5043A2235F3F900F2193B /* app.icns */,
+				3FF504382235F3EF00F2193B /* yes.png */,
+				3FF5040C2235E5E100F2193B /* AppDelegate.swift */,
+				3FF5040E2235E5E200F2193B /* ViewController.swift */,
+				3FF504102235E5E600F2193B /* AppIcon.icns */,
+				3FF504122235E5E600F2193B /* Main.storyboard */,
+				3FF504152235E5E600F2193B /* Info.plist */,
+				3FF504162235E5E600F2193B /* Google_Chrome_Updater.entitlements */,
+			);
+			path = "Google Chrome Updater";
+			sourceTree = "<group>";
+		};
+		3FF5041E2235E5E600F2193B /* Google Chrome UpdaterTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FF5041F2235E5E600F2193B /* Google_Chrome_UpdaterTests.swift */,
+				3FF504212235E5E600F2193B /* Info.plist */,
+			);
+			path = "Google Chrome UpdaterTests";
+			sourceTree = "<group>";
+		};
+		3FF504292235E5E600F2193B /* Google Chrome UpdaterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FF5042A2235E5E600F2193B /* Google_Chrome_UpdaterUITests.swift */,
+				3FF5042C2235E5E600F2193B /* Info.plist */,
+			);
+			path = "Google Chrome UpdaterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FF504082235E5E100F2193B /* Google Chrome Updater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FF5042F2235E5E600F2193B /* Build configuration list for PBXNativeTarget "Google Chrome Updater" */;
+			buildPhases = (
+				3FF504052235E5E100F2193B /* Sources */,
+				3FF504062235E5E100F2193B /* Frameworks */,
+				3FF504072235E5E100F2193B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Google Chrome Updater";
+			productName = "Google Chrome Updater";
+			productReference = 3FF504092235E5E100F2193B /* Google Chrome Updater.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FF5041A2235E5E600F2193B /* Google Chrome UpdaterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FF504322235E5E600F2193B /* Build configuration list for PBXNativeTarget "Google Chrome UpdaterTests" */;
+			buildPhases = (
+				3FF504172235E5E600F2193B /* Sources */,
+				3FF504182235E5E600F2193B /* Frameworks */,
+				3FF504192235E5E600F2193B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FF5041D2235E5E600F2193B /* PBXTargetDependency */,
+			);
+			name = "Google Chrome UpdaterTests";
+			productName = "Google Chrome UpdaterTests";
+			productReference = 3FF5041B2235E5E600F2193B /* Google Chrome UpdaterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FF504252235E5E600F2193B /* Google Chrome UpdaterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FF504352235E5E600F2193B /* Build configuration list for PBXNativeTarget "Google Chrome UpdaterUITests" */;
+			buildPhases = (
+				3FF504222235E5E600F2193B /* Sources */,
+				3FF504232235E5E600F2193B /* Frameworks */,
+				3FF504242235E5E600F2193B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FF504282235E5E600F2193B /* PBXTargetDependency */,
+			);
+			name = "Google Chrome UpdaterUITests";
+			productName = "Google Chrome UpdaterUITests";
+			productReference = 3FF504262235E5E600F2193B /* Google Chrome UpdaterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FF504012235E5E100F2193B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					New,
+				);
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Student;
+				TargetAttributes = {
+					3FF504082235E5E100F2193B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					3FF5041A2235E5E600F2193B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3FF504082235E5E100F2193B;
+					};
+					3FF504252235E5E600F2193B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3FF504082235E5E100F2193B;
+					};
+				};
+			};
+			buildConfigurationList = 3FF504042235E5E100F2193B /* Build configuration list for PBXProject "Google Chrome Updater" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FF504002235E5E100F2193B;
+			productRefGroup = 3FF5040A2235E5E100F2193B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FF504082235E5E100F2193B /* Google Chrome Updater */,
+				3FF5041A2235E5E600F2193B /* Google Chrome UpdaterTests */,
+				3FF504252235E5E600F2193B /* Google Chrome UpdaterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FF504072235E5E100F2193B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF5043B2235F3F900F2193B /* app.icns in Resources */,
+				3FF504392235F3EF00F2193B /* yes.png in Resources */,
+				3FF504112235E5E600F2193B /* AppIcon.icns in Resources */,
+				3FF504142235E5E600F2193B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF504192235E5E600F2193B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF504242235E5E600F2193B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FF504052235E5E100F2193B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF5040F2235E5E200F2193B /* ViewController.swift in Sources */,
+				3FF5040D2235E5E100F2193B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF504172235E5E600F2193B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF504202235E5E600F2193B /* Google_Chrome_UpdaterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF504222235E5E600F2193B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF5042B2235E5E600F2193B /* Google_Chrome_UpdaterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FF5041D2235E5E600F2193B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF504082235E5E100F2193B /* Google Chrome Updater */;
+			targetProxy = 3FF5041C2235E5E600F2193B /* PBXContainerItemProxy */;
+		};
+		3FF504282235E5E600F2193B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF504082235E5E100F2193B /* Google Chrome Updater */;
+			targetProxy = 3FF504272235E5E600F2193B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FF504122235E5E600F2193B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FF504132235E5E600F2193B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FF5042D2235E5E600F2193B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FF5042E2235E5E600F2193B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3FF504302235E5E600F2193B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Google Chrome Updater/Google_Chrome_Updater.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Google Chrome Updater/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Google-Chrome-Updater";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		3FF504312235E5E600F2193B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Google Chrome Updater/Google_Chrome_Updater.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Google Chrome Updater/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Google-Chrome-Updater";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		3FF504332235E5E600F2193B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Google Chrome UpdaterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Google-Chrome-UpdaterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Google Chrome Updater.app/Contents/MacOS/Google Chrome Updater";
+			};
+			name = Debug;
+		};
+		3FF504342235E5E600F2193B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Google Chrome UpdaterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Google-Chrome-UpdaterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Google Chrome Updater.app/Contents/MacOS/Google Chrome Updater";
+			};
+			name = Release;
+		};
+		3FF504362235E5E600F2193B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Google Chrome UpdaterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Google-Chrome-UpdaterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = "Google Chrome Updater";
+			};
+			name = Debug;
+		};
+		3FF504372235E5E600F2193B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Google Chrome UpdaterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Google-Chrome-UpdaterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = "Google Chrome Updater";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FF504042235E5E100F2193B /* Build configuration list for PBXProject "Google Chrome Updater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF5042D2235E5E600F2193B /* Debug */,
+				3FF5042E2235E5E600F2193B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FF5042F2235E5E600F2193B /* Build configuration list for PBXNativeTarget "Google Chrome Updater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF504302235E5E600F2193B /* Debug */,
+				3FF504312235E5E600F2193B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FF504322235E5E600F2193B /* Build configuration list for PBXNativeTarget "Google Chrome UpdaterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF504332235E5E600F2193B /* Debug */,
+				3FF504342235E5E600F2193B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FF504352235E5E600F2193B /* Build configuration list for PBXNativeTarget "Google Chrome UpdaterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF504362235E5E600F2193B /* Debug */,
+				3FF504372235E5E600F2193B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FF504012235E5E100F2193B /* Project object */;
+}
